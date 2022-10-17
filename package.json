@@ -1,0 +1,19 @@
+{
+    "name": "admitone",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@notionhq/client": "^2.2.1",
+        "airtable": "^0.11.5",
+        "axios": "^1.1.2",
+        "json2csv": "^5.0.7",
+        "moment": "^2.29.3",
+        "xml2js-parser": "^1.1.1"
+    }
+}

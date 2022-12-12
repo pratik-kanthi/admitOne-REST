@@ -19,6 +19,7 @@ let typeIDs = null;
 			baseURL: 'https://data.cinemas-online.co.uk/',
 			headers: {'Authorization': `Bearer ${token}`}
 		});
+
 		titleMap = await getTitleMap();
 		venues = await getVenues();
 		typeIDs = await getTypeIDs();
@@ -197,6 +198,9 @@ const getMovieIdByTitle = (title)=>{
 			}
 		}catch (e) {
 			console.log(title, titleMap[title]);
+			if(title === 'Roald Dahl%92s Matilda the Musical' ){
+				movie_id = '60c3f63b997aa9426c62ba6f';
+			}
 		}
 
 		resolve(movie_id);

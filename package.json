@@ -14,6 +14,7 @@
         "axios": "^1.1.2",
         "json2csv": "^5.0.7",
         "moment": "^2.29.3",
+        "moment-timezone": "^0.5.40",
         "xml2js-parser": "^1.1.1"
     }
 }
